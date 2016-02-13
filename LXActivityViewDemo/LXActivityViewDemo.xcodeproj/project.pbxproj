@@ -84,7 +84,7 @@
 		C95589D51C6F7D9400E6512B /* sns_icon_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C955898C1C6F7D9400E6512B /* sns_icon_8@2x.png */; };
 		C95589D61C6F7D9400E6512B /* sns_icon_9.png in Resources */ = {isa = PBXBuildFile; fileRef = C955898D1C6F7D9400E6512B /* sns_icon_9.png */; };
 		C95589D71C6F7D9400E6512B /* sns_icon_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C955898E1C6F7D9400E6512B /* sns_icon_9@2x.png */; };
-		C95589D81C6F7D9400E6512B /* LXActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C95589911C6F7D9400E6512B /* LXActivity.m */; };
+		C95589DC1C6F807500E6512B /* LXActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C95589DB1C6F807500E6512B /* LXActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,8 +181,8 @@
 		C955898C1C6F7D9400E6512B /* sns_icon_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_8@2x.png"; sourceTree = "<group>"; };
 		C955898D1C6F7D9400E6512B /* sns_icon_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sns_icon_9.png; sourceTree = "<group>"; };
 		C955898E1C6F7D9400E6512B /* sns_icon_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_9@2x.png"; sourceTree = "<group>"; };
-		C95589901C6F7D9400E6512B /* LXActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXActivity.h; sourceTree = "<group>"; };
-		C95589911C6F7D9400E6512B /* LXActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXActivity.m; sourceTree = "<group>"; };
+		C95589DA1C6F807500E6512B /* LXActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXActivity.h; sourceTree = "<group>"; };
+		C95589DB1C6F807500E6512B /* LXActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,8 +232,8 @@
 				C955892F1C6F7D6B00E6512B /* Assets.xcassets */,
 				C95589311C6F7D6B00E6512B /* LaunchScreen.storyboard */,
 				C95589341C6F7D6B00E6512B /* Info.plist */,
+				C95589D91C6F807500E6512B /* LXActivity */,
 				C95589481C6F7D9400E6512B /* icon_for_share */,
-				C955898F1C6F7D9400E6512B /* LXActivityView */,
 				C95589231C6F7D6B00E6512B /* Supporting Files */,
 			);
 			path = LXActivityViewDemo;
@@ -333,13 +333,13 @@
 			path = icon_for_share;
 			sourceTree = "<group>";
 		};
-		C955898F1C6F7D9400E6512B /* LXActivityView */ = {
+		C95589D91C6F807500E6512B /* LXActivity */ = {
 			isa = PBXGroup;
 			children = (
-				C95589901C6F7D9400E6512B /* LXActivity.h */,
-				C95589911C6F7D9400E6512B /* LXActivity.m */,
+				C95589DA1C6F807500E6512B /* LXActivity.h */,
+				C95589DB1C6F807500E6512B /* LXActivity.m */,
 			);
-			path = LXActivityView;
+			path = LXActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,7 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C95589D81C6F7D9400E6512B /* LXActivity.m in Sources */,
+				C95589DC1C6F807500E6512B /* LXActivity.m in Sources */,
 				C955892B1C6F7D6B00E6512B /* ViewController.m in Sources */,
 				C95589281C6F7D6B00E6512B /* AppDelegate.m in Sources */,
 				C95589251C6F7D6B00E6512B /* main.m in Sources */,
@@ -702,6 +702,7 @@
 				C95589441C6F7D6B00E6512B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95589451C6F7D6B00E6512B /* Build configuration list for PBXNativeTarget "LXActivityViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +711,7 @@
 				C95589471C6F7D6B00E6512B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
